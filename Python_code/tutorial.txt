@@ -1,0 +1,57 @@
+        BASIC FUNCTIONALITY
+
+        Measurement:
+
+        1) The software needs a calibration value (K), which is unique to each
+    device. If no calibration value is present, a new value can be obtained
+    through File-> Calibration. (See the Calibration section below)
+        2) After a Calibration value(K) is chosen, by clicking on the voltage
+    values on the fist graph, the corresponding concentration value can be given.
+    The voltage/concentration that is chosen will be plotted on the second graph.
+    Any undesired value on the second graph can be removed by just clicking on
+    the value.
+        3) After desired amount of Voltage/Concentration points are chosen, a
+    line can be interpolated, whose slope will be immediately calculated and
+    printed on the screen.
+        4) The "Solve equation" button will be active at that point, which solves
+    the equation with given values and prints the calculated dn/dc value on the
+    screen.
+
+        Calibration:
+
+        1) A substance with a known dn/dc can be used to calibrate the device.
+    First the dn/dc values must be typed in to the corresponding entry field
+    on the screen.
+        2) After the dn/dc is given, by clicking on the voltage values on the
+    first graph, the corresponding concentration value can be given. The chosen
+    voltage/concentration will be plotted on the second graph. Any undesired
+    value on the second graph can be removed by just clicking on the value.
+        3) After desired amount of Voltage/Concentration points are chosen, a
+    line can be interpolated, whose slope will be immediately calculated and
+    printed on the screen.
+        4) The "Solve equation" button will be active at that point, which solves
+    the equation with given values and prints the calculated calibration value on
+    the screen.
+        5) By clicking on "Save Calibration" button, the calculated calibration
+    value will be ready for later use.
+        6) A value can be deleted through File->Delete K, which opens a menu to
+    select and delete the desired K value.
+
+        Graph Functionality:
+
+       On the left corner of the application window, a bunch of buttons are placed
+    to manupulate the graph. By just hovering above the buttons, the name of the
+    functionality will be shown, which is quite self-explainotary. There are some
+    important points worth noting:
+
+        1) The zooming functionality is offered through "Zoom to rectangle" button.
+    Before using that button the graph must be paused by clicking "Stop" button on
+    the bottom right hand side of the graph. After zooming for the desired amount,
+    just reclicking the same "Zoom to rectangle" button, the zooming functionality
+    will be ended. This is required for inserting Concentration values.
+        2) The "Clear" button on the bottom right hand side of the second graph can
+    be used to clear the graphs but the user should keep in mind that all of the
+    plotted values will be gone and are unretrievable.
+        3) The exact coordinates of the cursor while hoovering over the graphs will
+    be displayed under the second graphs.
+
