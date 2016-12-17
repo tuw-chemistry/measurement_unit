@@ -1017,7 +1017,7 @@ class Controller(tk.Tk):  # Tk class from tk module is inherited
         self.rowconfigure(0, weight=0)
         self.rowconfigure(1, weight=5)
 
-        tk.Tk.wm_title(self, "Measurement Unit")
+        tk.Tk.wm_title(self, "Dndicino")
 
         self.datasource = DataAcquisition()
         self.plots = MyPlots(self.datasource)
